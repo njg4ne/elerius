@@ -1,0 +1,64 @@
+{
+  "document": {
+    "startTime": "08:00",
+    "hoursVisible": 11,
+    "incMinutes": 15,
+    "locks": [true, true],
+    "schedule": {
+      "expectation": [
+        {
+          "duration": 4,
+          "color": "red-700",
+          "description": "Email"
+        },
+        {
+          "duration": 6,
+          "color": "blue-500",
+          "description": "Class"
+        },
+        {
+          "duration": 8,
+          "color": "purple-700",
+          "description": "Reading"
+        },
+        {
+          "duration": 4,
+          "color": "gray-700",
+          "description": "Break"
+        },
+        {
+          "duration": 22,
+          "color": "blue-200",
+          "description": "Reading"
+        }
+      ],
+      "reality": [
+        {
+          "duration": 8,
+          "color": "red-700",
+          "description": "Email"
+        },
+        {
+          "duration": 6,
+          "color": "blue-200",
+          "description": "Class"
+        },
+        {
+          "duration": 4,
+          "color": "purple-700",
+          "description": "Reading"
+        },
+        {
+          "duration": 4,
+          "color": "gray-700",
+          "description": "Break"
+        },
+        {
+          "duration": 22,
+          "color": "blue-500",
+          "description": "Reading"
+        }
+      ]
+    }
+  }
+}
