@@ -1,0 +1,90 @@
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.gutter {
+  background-color: #eee;
+
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gutter.gutter-vertical {
+  cursor: row-resize;
+}
+
+.nav {
+  height: calc((1vw + 1vh) * 3);
+  max-height: 18mm;
+}
+.afternav {
+  --nav-height: min((1vw + 1vh) * 3, 18mm);
+  --remainder: calc(100vh - var(--nav-height));
+  min-height: var(--remainder);
+}
+.marg1 {
+  --base-marg: calc((1vw + 1vh) / 2);
+  margin: var(--base-marg);
+}
+.pad1 {
+  padding: 0.25vh 0.25vw;
+}
+.page {
+  --base-size: min((1vw + 1vh), 5mm);
+  font-size: var(--base-size);
+}
+.login {
+  --whole: min((1vw + 1vh) * 3, 18mm);
+  --inc: calc(var(--whole) / 10);
+  margin: var(--inc) var(--inc) var(--inc) auto;
+  padding: 0 calc(3 * var(--inc));
+  font-weight: 500;
+}
+.brand {
+  --base-size: min((1vw + 1vh) * 1.5, 10mm);
+  font-size: var(--base-size);
+  margin: 0.5vh 1.5vw 0.25vh;
+}
+.base {
+  width: 100vw;
+  height: max(20cm, 100vh);
+}
+.timecell {
+  height: 3.5vh;
+}
+
+.context {
+  height: 25px;
+  width: 25px;
+}
+
+button {
+}
+button:hover {
+  background-color: #a5a5a5;
+}
+
+.icon {
+  --side: calc(2vh + 2vw);
+  font-size: calc(var(--side) * 3 / 4);
+  padding-top: calc(var(--side) / 8);
+  width: var(--side);
+  height: var(--side);
+}
+.iconbutton {
+  --side: calc(2vh + 2vw);
+  width: var(--side);
+  height: var(--side);
+  margin-inline-start: 3px;
+  margin-inline-end: 3px;
+}
+
+:root {
+  --spotify-1: white;
+  --spotify-2: #b3b3b3;
+  --spotify-3: #404040;
+  --spotify-4: #282828;
+  --spotify-5: #181818;
+  --spotify-6: #121212;
+  --spotify-7: black;
+}
