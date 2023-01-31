@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.b8fbacfc.chunk.css",
-    "main.js": "./static/js/main.85f73e19.chunk.js",
-    "main.js.map": "./static/js/main.85f73e19.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.a1c702ac.js",
-    "runtime-main.js.map": "./static/js/runtime-main.a1c702ac.js.map",
-    "static/js/2.d28c8acb.chunk.js": "./static/js/2.d28c8acb.chunk.js",
-    "static/js/2.d28c8acb.chunk.js.map": "./static/js/2.d28c8acb.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.b8fbacfc.chunk.css.map": "./static/css/main.b8fbacfc.chunk.css.map",
-    "static/js/2.d28c8acb.chunk.js.LICENSE.txt": "./static/js/2.d28c8acb.chunk.js.LICENSE.txt",
-    "static/media/profile.dd74fee6.jpg": "./static/media/profile.dd74fee6.jpg"
+    "main.css": "/elerius/static/css/main.b8fbacfc.chunk.css",
+    "main.js": "/elerius/static/js/main.fef9ac57.chunk.js",
+    "main.js.map": "/elerius/static/js/main.fef9ac57.chunk.js.map",
+    "runtime-main.js": "/elerius/static/js/runtime-main.fc0b5ed1.js",
+    "runtime-main.js.map": "/elerius/static/js/runtime-main.fc0b5ed1.js.map",
+    "static/js/2.d28c8acb.chunk.js": "/elerius/static/js/2.d28c8acb.chunk.js",
+    "static/js/2.d28c8acb.chunk.js.map": "/elerius/static/js/2.d28c8acb.chunk.js.map",
+    "index.html": "/elerius/index.html",
+    "static/css/main.b8fbacfc.chunk.css.map": "/elerius/static/css/main.b8fbacfc.chunk.css.map",
+    "static/js/2.d28c8acb.chunk.js.LICENSE.txt": "/elerius/static/js/2.d28c8acb.chunk.js.LICENSE.txt",
+    "static/media/profile.dd74fee6.jpg": "/elerius/static/media/profile.dd74fee6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1c702ac.js",
+    "static/js/runtime-main.fc0b5ed1.js",
     "static/js/2.d28c8acb.chunk.js",
     "static/css/main.b8fbacfc.chunk.css",
-    "static/js/main.85f73e19.chunk.js"
+    "static/js/main.fef9ac57.chunk.js"
   ]
 }
